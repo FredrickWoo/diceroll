@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="date">
+      <p id="date">Date: </p>
+    </div>
+    <div class="day-name">
+      <p class="day" id="day">DD/MM/YYYY at HH:MM</p>
+    </div>
+    <br>
+    <div class="dices">
+      <div class="dice">
+        <div id = "dice1">
+        <img src="dice-1.svg" alt="dice">
+        </div>
+        <p class="dice-label">Dice 1</p>
+      </div>
+      <div class="dice">
+        <div id = "dice2">
+        <img src="dice-1.svg" alt="dice">
+        </div>
+        <p class="dice-label">Dice 2</p>
+      </div>
+    </div>
+    <br>
+      <button id="btn">Roll Dice</button>
+      <br>
+      <div class="message">
+        Total: <span id="total">2</span>
+        <br>
+        more than 8: <span id="more-than-10">Win</span>
+        <br>
+        less than 8: <span id="less-than-10">Lose</span>
+        <br>
+        <br>
+        <div id="winstate">
+        <h3>You didn't win: Try Again!</h1>
+        </div>
+      </div>
+      </div>
+
+  <script src="script.js" ></script>
+</body>
+
+</html>
